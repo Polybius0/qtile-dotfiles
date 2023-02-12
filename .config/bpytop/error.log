@@ -1,0 +1,155 @@
+11/02/23 (14:52:19) | ERROR: invalid literal for int() with base 10: 'DBBC7F'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1160, in __init__
+    c_t = tuple(map(int, color.split(" ")))
+ValueError: invalid literal for int() with base 10: 'DBBC7F'
+11/02/23 (14:52:19) | ERROR: 'Color' object has no attribute 'dec'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 5677, in main
+    run()
+  File "/usr/bin/bpytop", line 5671, in run
+    process_keys()
+  File "/usr/bin/bpytop", line 5422, in process_keys
+    Menu.main()
+  File "/usr/bin/bpytop", line 4096, in main
+    cls.options()
+  File "/usr/bin/bpytop", line 4895, in options
+    THEME(CONFIG.color_theme)
+  File "/usr/bin/bpytop", line 1289, in __call__
+    self._load_theme(theme)
+  File "/usr/bin/bpytop", line 1331, in _load_theme
+    rgb = { "start" : getattr(self, f'{name}_start').dec, "mid" : getattr(self, f'{name}_mid').dec, "end" : getattr(self, f'{name}_end').dec }
+AttributeError: 'Color' object has no attribute 'dec'
+11/02/23 (14:52:20) | WARNING: Exiting with errorcode (1). Runtime 0:00:08 
+
+11/02/23 (14:52:30) | ERROR: invalid literal for int() with base 10: 'DBBC7F'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1160, in __init__
+    c_t = tuple(map(int, color.split(" ")))
+ValueError: invalid literal for int() with base 10: 'DBBC7F'
+11/02/23 (14:52:30) | ERROR: 'Color' object has no attribute 'dec'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 5677, in main
+    run()
+  File "/usr/bin/bpytop", line 5671, in run
+    process_keys()
+  File "/usr/bin/bpytop", line 5422, in process_keys
+    Menu.main()
+  File "/usr/bin/bpytop", line 4096, in main
+    cls.options()
+  File "/usr/bin/bpytop", line 4895, in options
+    THEME(CONFIG.color_theme)
+  File "/usr/bin/bpytop", line 1289, in __call__
+    self._load_theme(theme)
+  File "/usr/bin/bpytop", line 1331, in _load_theme
+    rgb = { "start" : getattr(self, f'{name}_start').dec, "mid" : getattr(self, f'{name}_mid').dec, "end" : getattr(self, f'{name}_end').dec }
+AttributeError: 'Color' object has no attribute 'dec'
+11/02/23 (14:52:30) | WARNING: Exiting with errorcode (1). Runtime 0:00:04 
+
+11/02/23 (14:52:51) | ERROR: invalid literal for int() with base 10: 'DBBC7F'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1160, in __init__
+    c_t = tuple(map(int, color.split(" ")))
+ValueError: invalid literal for int() with base 10: 'DBBC7F'
+11/02/23 (14:52:51) | ERROR: 'Color' object has no attribute 'dec'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 5677, in main
+    run()
+  File "/usr/bin/bpytop", line 5671, in run
+    process_keys()
+  File "/usr/bin/bpytop", line 5422, in process_keys
+    Menu.main()
+  File "/usr/bin/bpytop", line 4096, in main
+    cls.options()
+  File "/usr/bin/bpytop", line 4895, in options
+    THEME(CONFIG.color_theme)
+  File "/usr/bin/bpytop", line 1289, in __call__
+    self._load_theme(theme)
+  File "/usr/bin/bpytop", line 1331, in _load_theme
+    rgb = { "start" : getattr(self, f'{name}_start').dec, "mid" : getattr(self, f'{name}_mid').dec, "end" : getattr(self, f'{name}_end').dec }
+AttributeError: 'Color' object has no attribute 'dec'
+11/02/23 (14:52:51) | WARNING: Exiting with errorcode (1). Runtime 0:00:04 
+
+11/02/23 (14:53:15) | ERROR: invalid literal for int() with base 10: 'DBBC7F'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 1160, in __init__
+    c_t = tuple(map(int, color.split(" ")))
+ValueError: invalid literal for int() with base 10: 'DBBC7F'
+11/02/23 (14:53:15) | ERROR: 'Color' object has no attribute 'dec'
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 5677, in main
+    run()
+  File "/usr/bin/bpytop", line 5671, in run
+    process_keys()
+  File "/usr/bin/bpytop", line 5422, in process_keys
+    Menu.main()
+  File "/usr/bin/bpytop", line 4096, in main
+    cls.options()
+  File "/usr/bin/bpytop", line 4895, in options
+    THEME(CONFIG.color_theme)
+  File "/usr/bin/bpytop", line 1289, in __call__
+    self._load_theme(theme)
+  File "/usr/bin/bpytop", line 1331, in _load_theme
+    rgb = { "start" : getattr(self, f'{name}_start').dec, "mid" : getattr(self, f'{name}_mid').dec, "end" : getattr(self, f'{name}_end').dec }
+AttributeError: 'Color' object has no attribute 'dec'
+11/02/23 (14:53:15) | WARNING: Exiting with errorcode (1). Runtime 0:00:12 
+
+11/02/23 (14:57:57) | ERROR: Input thread failed with exception: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 957, in _get_key
+    input_key += sys.stdin.read(1)						#* Read 1 key safely with blocking on
+OSError: [Errno 5] Input/output error
+11/02/23 (17:18:06) | INFO: New instance of bpytop version 1.0.68 started with pid 1465
+11/02/23 (17:18:06) | INFO: Loglevel set to DEBUG
+11/02/23 (17:18:06) | DEBUG: Using psutil version 5.9.4
+11/02/23 (17:18:06) | DEBUG: CMD: /usr/bin/bpytop
+11/02/23 (17:18:06) | INFO: Config file version and bpytop version mismatch, will be recreated on exit!
+11/02/23 (17:18:06) | WARNING: No theme named "everforest" found!
+11/02/23 (17:18:06) | DEBUG: new fstab_filter set : ['/']
+11/02/23 (17:18:06) | DEBUG: Collect and draw completed in 0.033983 seconds
+11/02/23 (17:18:06) | DEBUG: Init completed in 0.067004 seconds
+11/02/23 (17:21:18) | INFO: New instance of bpytop version 1.0.68 started with pid 1938
+11/02/23 (17:21:18) | INFO: Loglevel set to DEBUG
+11/02/23 (17:21:18) | DEBUG: Using psutil version 5.9.4
+11/02/23 (17:21:18) | DEBUG: CMD: /usr/bin/bpytop
+11/02/23 (17:21:18) | INFO: Config file version and bpytop version mismatch, will be recreated on exit!
+11/02/23 (17:21:18) | DEBUG: new fstab_filter set : ['/']
+11/02/23 (17:21:18) | DEBUG: Collect and draw completed in 0.020458 seconds
+11/02/23 (17:21:18) | DEBUG: Init completed in 0.057535 seconds
+11/02/23 (17:22:57) | INFO: New instance of bpytop version 1.0.68 started with pid 1973
+11/02/23 (17:22:57) | INFO: Loglevel set to DEBUG
+11/02/23 (17:22:57) | DEBUG: Using psutil version 5.9.4
+11/02/23 (17:22:57) | DEBUG: CMD: /usr/bin/bpytop
+11/02/23 (17:22:57) | INFO: Config file version and bpytop version mismatch, will be recreated on exit!
+11/02/23 (17:22:57) | DEBUG: new fstab_filter set : ['/']
+11/02/23 (17:22:57) | DEBUG: Collect and draw completed in 0.021733 seconds
+11/02/23 (17:22:57) | DEBUG: Init completed in 0.055338 seconds
+11/02/23 (17:26:13) | INFO: New instance of bpytop version 1.0.68 started with pid 2004
+11/02/23 (17:26:13) | INFO: Loglevel set to DEBUG
+11/02/23 (17:26:13) | DEBUG: Using psutil version 5.9.4
+11/02/23 (17:26:13) | DEBUG: CMD: /usr/bin/bpytop
+11/02/23 (17:26:13) | INFO: Config file version and bpytop version mismatch, will be recreated on exit!
+11/02/23 (17:26:13) | DEBUG: new fstab_filter set : ['/']
+11/02/23 (17:26:13) | DEBUG: Collect and draw completed in 0.021544 seconds
+11/02/23 (17:26:13) | DEBUG: Init completed in 0.059983 seconds
+11/02/23 (17:34:40) | ERROR: Input thread failed with exception: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/usr/bin/bpytop", line 957, in _get_key
+    input_key += sys.stdin.read(1)						#* Read 1 key safely with blocking on
+OSError: [Errno 5] Input/output error
+11/02/23 (18:56:10) | INFO: New instance of bpytop version 1.0.68 started with pid 13211
+11/02/23 (18:56:10) | INFO: Loglevel set to DEBUG
+11/02/23 (18:56:10) | DEBUG: Using psutil version 5.9.4
+11/02/23 (18:56:10) | DEBUG: CMD: /usr/bin/bpytop
+11/02/23 (18:56:10) | INFO: Config file version and bpytop version mismatch, will be recreated on exit!
+11/02/23 (18:56:10) | DEBUG: new fstab_filter set : ['/']
+11/02/23 (18:56:10) | DEBUG: Collect and draw completed in 0.019766 seconds
+11/02/23 (18:56:10) | DEBUG: Init completed in 0.050599 seconds
+11/02/23 (18:59:43) | INFO: New instance of bpytop version 1.0.68 started with pid 1111
+11/02/23 (18:59:43) | INFO: Loglevel set to DEBUG
+11/02/23 (18:59:43) | DEBUG: Using psutil version 5.9.4
+11/02/23 (18:59:43) | DEBUG: CMD: /usr/bin/bpytop
+11/02/23 (18:59:43) | INFO: Config file version and bpytop version mismatch, will be recreated on exit!
+11/02/23 (18:59:43) | DEBUG: new fstab_filter set : ['/']
+11/02/23 (18:59:43) | DEBUG: Collect and draw completed in 0.035199 seconds
+11/02/23 (18:59:43) | DEBUG: Init completed in 0.060714 seconds
