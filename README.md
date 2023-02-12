@@ -23,6 +23,7 @@ clone [qtile extras repo](https://github.com/elParaguayo/qtile-extras) and run `
 |----------------|-------------------|
 | feh            | wallpaper manager |
 | rofi           | run menu          |
+| alacritty      | terminal          |
 | bpytop         | task manager      |
 
 # Installation
