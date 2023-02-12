@@ -19,12 +19,13 @@ sudo apt-get install qtile
 clone [qtile extras repo](https://github.com/elParaguayo/qtile-extras) and run `python setup.py install`
 
 ## Other dependencies
-| **Dependency** | **Description**   |
-|----------------|-------------------|
-| feh            | wallpaper manager |
-| rofi           | run menu          |
-| alacritty      | terminal          |
-| bpytop         | task manager      |
+| **Dependency**                                        | **Description**   |
+|-------------------------------------------------------|-------------------|
+| [feh](https://github.com/derf/feh)                    | wallpaper manager |
+| [rofi](https://github.com/davatorium/rofi)            | run menu          |
+| [alacritty](https://github.com/alacritty/alacritty)   | terminal          |
+| [bpytop](https://github.com/aristocratos/bpytop)      | task manager      |
+| [synth](https://github.com/andresgongora/synth-shell) | shell prompt      |
 
 # Installation
 1. Ensure dependencies are met
