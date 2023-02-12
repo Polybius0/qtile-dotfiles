@@ -6,14 +6,14 @@ based off of the [everforest theme](https://github.com/sainnhe/everforest)
 ![pannels](rofi.png)
 
 #Dependencies
-##Qtilewm + Qtile extras
+## Qtilewm + Qtile extras
 
-###Arch Based
+### Arch Based
 ```
 sudo pacman -S qtile
 yay -S qtile-extras-git
 ```
-###Debian Based / Ubuntu
+### Debian Based / Ubuntu
 ```
 sudo apt-get install qtile
 ```
