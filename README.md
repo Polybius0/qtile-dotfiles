@@ -2,6 +2,7 @@
 based off of the [Everforest theme](https://github.com/sainnhe/everforest)
 ---
 ![pannels](screenshots/panels.png)
+![pannels](screenshots/ranger.png)
 ![pannels](screenshots/rofi.png)
 
 # Dependencies
