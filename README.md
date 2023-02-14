@@ -26,6 +26,7 @@ clone [qtile extras repo](https://github.com/elParaguayo/qtile-extras) and run `
 | [alacritty](https://github.com/alacritty/alacritty)   | terminal          |
 | [bpytop](https://github.com/aristocratos/bpytop)      | task manager      |
 | [synth](https://github.com/andresgongora/synth-shell) | shell prompt      |
+| [ranger](https://github.com/ranger/ranger)            | CLI file manager  |
 
 # Installation
 1. Ensure dependencies are met
